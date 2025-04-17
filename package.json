@@ -1,0 +1,33 @@
+{
+  "name": "ai_todo",
+  "version": "1.0.0",
+  "description": "An app to create todo using ai",
+  "main": "index.js",
+  "scripts": {
+    "test": "hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohanp04/Ai_todo.git"
+  },
+  "keywords": [
+    "AI_TODO"
+  ],
+  "author": "Rohan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohanp04/Ai_todo/issues"
+  },
+  "homepage": "https://github.com/rohanp04/Ai_todo#readme",
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "@types/pg": "^8.11.13",
+    "drizzle-kit": "^0.31.0",
+    "tsx": "^4.19.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "drizzle-orm": "^0.42.0",
+    "pg": "^8.14.1"
+  }
+}
