@@ -4,7 +4,9 @@
   "description": "An app to create todo using ai",
   "main": "index.js",
   "scripts": {
-    "test": "hello"
+    "generate": "drizzle-kit generate",
+    "migrate": "drizzle-kit migrate",
+    "stdio": "drizzle-kit studio"
   },
   "repository": {
     "type": "git",

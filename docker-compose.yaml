@@ -2,7 +2,7 @@ services:
  postgres:
     image: postgres:16
     ports:
-      -5431:5432
+      - "5431:5432"
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
@@ -10,5 +10,5 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
-volume:
-  postgres_data
+volumes:
+  postgres_data:
